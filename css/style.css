@@ -1,0 +1,205 @@
+html, h1, p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; */
+  /* background-color: blue; */
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+}
+
+section {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: white;
+}
+
+i {
+  margin-left: 10px;
+  display: inline-block;
+
+}
+
+h1, h2, p {
+  text-align: left;
+
+}
+
+/* ================== LEFT ================== */
+
+
+#leftSide {
+  position: relative;
+  width: 25vw;
+  height: 100vh;
+  background-color: #CE7C7F;
+  float: left;
+  padding: 0;
+  margin: 0;
+
+}
+
+.title {
+  /* background-color: yellow; */
+  width: 100%;
+  position: relative;
+  top: 10%;
+  padding: 0;
+  margin: 0;
+  left: 20%;
+
+}
+
+.developer {
+  width: 100%;
+  position: relative;
+  top: 10%;
+  padding: 0;
+  margin: 0;
+  left: 20%;
+  /* background-color: blue; */
+
+}
+
+.bio {
+  width: 90%;
+  position: relative;
+  top: 15%;
+  padding: 0;
+  margin: 0;
+  left: 5%;
+  /* background-color: blue; */
+}
+
+.stripe {
+  position: relative;
+  width: 1vw;
+  height: 100vh;
+  left: 3vw;
+  background-color: #E6B79C;
+  float: left;
+}
+.blue-stripe {
+  border-right: black solid 3px;
+  background-color: #E6B79C;
+
+}
+.pink-stripe {
+
+  background-color: #45999B;
+  width: 0.5vw;
+
+}
+
+/* ================== RIGHT ================== */
+
+#rightSide {
+  position: relative;
+  width: 75vw;
+  height: 100vh;
+  float: left;
+  background-color: #91C4B7;
+  padding: 0;
+  margin: 0;
+}
+
+
+.thirds {
+  position: relative;
+  width: 75vw;
+  /* height: 33vh; */
+  padding: 0;
+  margin: 0;
+}
+
+#top {
+  /* background-color: #91C4B7; */
+  height: 25vh;
+  padding: 0;
+  margin: 0;
+  top: 0;
+}
+
+
+
+
+
+
+#middle {
+  background-color: #F7F2DD;
+  height: 55vh;
+
+}
+
+.skills-icons {
+  position: relative;
+  top: 10%;
+  width: 24.5%;
+  height: 100%;
+  /* border: 1px solid black; */
+  display: inline-block;
+  float: left;
+}
+
+.skills-icons i{
+  font-size: 40px;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style: none;
+  text-align: left;
+  margin-left: 5px;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+
+
+
+
+#bottom {
+  background-color: #A8AF4B;
+  height: 20vh;
+
+}
+
+
+
+.center-div {
+  top: 20%;
+  position: relative;
+  height: 50%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.center-div p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.icons i{
+  font-size: 30px;
+}
+.icons {
+  margin: 15px;
+  margin-top: 30px;
+  display: inline-block;
+}
