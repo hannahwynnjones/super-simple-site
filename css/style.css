@@ -1,4 +1,4 @@
-html, h1, p {
+html, h1, p, h2 {
   padding: 0;
   margin: 0;
 }
@@ -40,6 +40,9 @@ h1, h2, p {
 
 /* ================== LEFT ================== */
 
+.hide-div {
+  display: none;
+}
 
 #leftSide {
   position: relative;
@@ -202,4 +205,182 @@ ul {
   margin: 15px;
   margin-top: 30px;
   display: inline-block;
+}
+
+
+/* Responsive */
+
+/* On screens that are 600px or less */
+
+@media (max-width: 400px), screen and (orientation: portrait) {
+  body {
+
+
+
+  }
+
+  .stripe {
+    width: 5vw;
+    height: 100vh;
+    left: 5vw;
+  }
+  .blue-stripe {
+    border-right: black solid 1vw;
+    background-color: #E6B79C;
+
+  }
+  .pink-stripe {
+
+    background-color: #45999B;
+    width: 10vw;
+
+  }
+
+  .hide-div {
+    display: block;
+    /* background-color: yellow; */
+    width: 70%;
+  }
+  .hide-div p{
+    font-size: 40px;
+  }
+  .hide-div i{
+    font-size: 100px;
+    margin-bottom: 10%;
+  }
+
+  .icons {
+    display: block;
+  }
+
+
+  /* ================== LEFT ================== */
+
+
+
+  #leftSide {
+    width: 100vw;
+    height: 100vh;
+    background-color: #CE7C7F;
+
+  }
+
+  h1 {
+    font-size: 100px;
+
+  }
+  h2 {
+    font-size: 80px;
+
+  }
+
+  .developer {
+    left: 10%;
+    width: 80%;
+    margin-top: 15%;
+  }
+  .title {
+    left: 10%;
+    width: 80%;
+    /* margin-top: 15%; */
+  }
+
+  .thirds {
+    width: 100vw;
+  }
+
+  #rightSide {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  /* ================== ABOUT ================== */
+
+
+
+  .bio {
+    width: 70%;
+    left: 20%;
+    top: 10%;
+  }
+  .bio h2{
+    margin-bottom: 20%;
+
+  }
+
+  #top {
+    background-color: #91C4B7;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    top: 0;
+  }
+
+
+  p {
+    font-size: 42px;
+    /* width: 80%; */
+  }
+
+  /* ================== SKILLS ================== */
+
+  #middle {
+    height: 100vh;
+
+  }
+
+  #middle .hide-div {
+    position: relative;
+    top: 3%;
+    left: 5%;
+  }
+
+  .skills-icons {
+    width: 100vw;
+    height: 20%;
+    left: 5%;
+    top: 5%;
+ }
+
+ .db-section {
+   height: 18%;
+
+ }
+  .skills-icons h3{
+    width: 25%;
+    float: left;
+    /* background-color: blue; */
+
+ }
+  .skills-icons i{
+    width: 5%;
+    float: left;
+    /* background-color: azure; */
+    font-size: 100px;
+ }
+
+ .left-icons {
+   background-color: orange;
+   width: 50%;
+   position: relative;
+   top: 10%;
+ }
+
+ ul {
+   width: 65%;
+   /* background-color: yellow; */
+   float: left;
+   left: 10%;
+   position: relative;
+ }
+
+ li {
+   font-size: 40px;
+ }
+
+ .hide-again {
+   display: none;
+ }
+
 }
