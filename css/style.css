@@ -319,28 +319,28 @@ ul {
 
 
   p {
-    font-size: 42px;
+    font-size: 40px;
     /* width: 80%; */
   }
 
   /* ================== SKILLS ================== */
 
   #middle {
-    height: 100vh;
+    height: 200vh;
 
   }
 
   #middle .hide-div {
     position: relative;
-    top: 3%;
+    top: 5%;
     left: 5%;
   }
 
   .skills-icons {
-    width: 100vw;
+    width: 80%;
     height: 20%;
-    left: 5%;
-    top: 5%;
+    left: 10%;
+    top: 10%;
  }
 
  .db-section {
@@ -368,19 +368,76 @@ ul {
  }
 
  ul {
-   width: 65%;
+   width: 70%;
    /* background-color: yellow; */
    float: left;
-   left: 10%;
+   left: 20%;
    position: relative;
  }
 
  li {
    font-size: 40px;
+   line-height: 2;
  }
 
  .hide-again {
    display: none;
  }
+
+}
+
+/* On screens that are 600px or less */
+
+@media (max-width: 600px), screen and (orientation: portrait) {
+
+  h2 {
+    font-size: 50px;
+  }
+
+  p {
+    font-size: 30px;
+    /* width: 80%; */
+  }
+
+  .developer {
+    left: 10%;
+    width: 80%;
+    margin-top: 5%;
+  }
+
+  .hide-div i{
+    font-size: 80px;
+    margin-bottom: 10%;
+  }
+
+  .mobile-div {
+    display: inline-block;
+  }
+  .mobile-div .icons{
+    margin: 30px;
+  }
+
+  .bio {
+    /* background-color: yellow; */
+  }
+
+  .mobile-line {
+    width: 40%;
+    position: relative;
+    height: 1vh;
+    left: 30%;
+    border-top: solid 2px black;
+    top: 13%;
+    background-color: #CE7C7F;
+  }
+
+  #middle {
+    height: 100vh;
+  }
+
+  li {
+    font-size: 24px;
+    line-height: 1;
+  }
 
 }
